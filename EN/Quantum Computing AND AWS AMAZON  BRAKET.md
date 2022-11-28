@@ -44,7 +44,7 @@ When we use Amazon Braket, Jupyter notebooks and Amazon Braket SDK pre-installed
 
 When using Amazon Braket, customers can change quantum computing devices as needed without being limited to a certain hardware. The following is a brief introduction to the use process of Amazon Braket[ 《Amazon Braket Developer Guide》;page36.].
 
-![image.png](./pics/task flow.png)
+![image](https://user-images.githubusercontent.com/112528710/204198410-1128de92-ae7e-42ee-a97a-f0f119378a88.png)
 
 _Picture1：This  diagram describes the Amazon Braket task flow._
 
@@ -54,11 +54,11 @@ Second, run the first quantum circuit using the Amazon Braket Python SDK. Open t
 
 Once the quantum circuit is created, we can then choose the appropriate quantum simulator as needed.Finally, running the quantum circuit will get the result of the simulation. The result of the task can be downloaded from Amazon Braket. The specific measurement information and parameter information are shown in the following figure:
 
-![image.png](./pics/measurement.png)
+![image](https://user-images.githubusercontent.com/112528710/204198446-3f72d4b2-6318-44e9-a12c-cc17f4886fcd.png)
 
 _Picture2：This  picture shows the part of  measurement information when a task is completed._
 
-![image.png](./pics/measurement2.png)
+![image](https://user-images.githubusercontent.com/112528710/204198447-37033d51-6276-42cf-b7c6-1e75236a82c9.png)
 
 _Picture3：The specific measurement information and parameter information are shown in this picture.__
 
@@ -104,7 +104,7 @@ In addition, QuTrunk can also be used as the basis for other quantum computing a
 
 - e.QuTrunk  Supports  visual  quantum  programming  (you   can  exprience	visual programing with QuTrunk and QuBranch).
 
-![image.png](./pics/architecture.png)
+![image](https://user-images.githubusercontent.com/112528710/204198477-6ac3f5f1-0b60-42f6-a486-bfa0b1e5cb31.png)
 
 _Picture4:This diagram describes the architecture diagram of QuTrunk._
 
@@ -151,7 +151,7 @@ res = qc.run(shots=100)
 
 QuFinace is a quantum software product developed by the company to provide financial services. Based on the quantum algorithm VQE, Monte Carlo estimation algorithm and Pennylane algorithm, QuFinace can provide support for financial practitioners and investors in the complex market environment in terms of option pricing, time series exchange rate estimation, portfolio optimization, and VAR value calculation in the financial field.The company has joined Baidu PaddlePaddle's technical partner program with time series prediction function of QuFinace.
 
-![image.png](./pics/QuFinace.png)
+![image](https://user-images.githubusercontent.com/112528710/204198492-952b8f99-4bad-41e5-b6bb-21660d52d579.png)
 
 _Picture5:This picture shows the  the  function  of  time  series  prediction  in  QuFinace ,which is a quantum financial product._
 
