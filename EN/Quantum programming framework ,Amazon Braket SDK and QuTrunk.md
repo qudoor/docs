@@ -33,13 +33,13 @@ Amazon Braket is a full-service Amazon Web Services (AWS) solution launched by A
 (3) Run, run quantum algorithms in the real quantum environment. At present, AWS quantum devices include D-Wave, IonQ, OQC. Because the influence of quantum
 computer noise cannot be completely removed at present, AWS provides a hybrid quantum environment, works with CPU through QPU, and supports hybrid algorithm through PennyLane .
 
-![image.png](./pics/Run.png)
+![image](https://user-images.githubusercontent.com/112528710/204198658-43df05fc-3dcd-46a6-b8aa-684af71b645d.png)
 
 How Amazon Braket Works[ 《Amazon Braket Developer Guide》]
 
-![image.png](./pics/image3.png)
+![image](https://user-images.githubusercontent.com/112528710/204198672-87d0c055-8ea8-4dda-a73d-575fe9c59551.png)
 
-![image.png](./pics/image4.png)
+![image](https://user-images.githubusercontent.com/112528710/204198686-1c9cbd0a-abed-4b6c-ad7a-e6dd9259a408.png)
 
 (1)Learn
 AmazonBraket, which provides step-by-step instructions, tutorials, and resource libraries help you quickly start experimenting with quantum computing.
@@ -71,7 +71,7 @@ Amazon Braket functions
 
 Braket Task Flow[ 《Amazon Braket Developer Guide》]
 
-![image.png](./pics/image5.png)
+![image](https://user-images.githubusercontent.com/112528710/204198727-19f3b1dd-b8bd-4223-becc-f6da49bcf655.png)
 
 (1)To make it easy for customers to define, submit, and monitor their tasks, Amazon Braket provides an environment with Jupyter notebooks.
 
@@ -94,28 +94,27 @@ You can program quantum circuits by installing Jupyter locally.Install AWS Brake
 
 (1) Use Jupyter to run Bell algorithm locally
 
-![image.png](./pics/image6.png)
+![image](https://user-images.githubusercontent.com/112528710/204198754-cba411e5-d8a9-4f5d-8ec0-07cf3a793d80.png)
 
 (2) Visualization results can be displayed using the visualization library
 
-![image.png](./pics/image7.png)
+![image](https://user-images.githubusercontent.com/112528710/204198770-793b17bf-4fd0-49d5-af2e-e1acd22c62ba.png)
 
 AWS can support local simulors, as well as efficient and more qubit capable simulator services.
 
-![image.png](./pics/image8.png)
+![image](https://user-images.githubusercontent.com/112528710/204198785-d2a8e1d5-d9e1-4254-960a-f022a0742bce.png)
 
 ### 2.4 Features of Amazon Braket SDK
 （1）Moment Features. There is a pseudo-time concept in Braket, defined as moment, which means that a qubit performs a gate operation at the current moment.. The moment attribute is to disassemble a circuit in units of gates, so as to obtain the temporary state of the circuit at a moment, and analyze the running process of the algorithm.. The code is shown in the following figure:
 
-![image.png](./pics/image9.png)
+![image](https://user-images.githubusercontent.com/112528710/204198804-a16ec6ae-1d2c-4dbc-ba8e-3025eb986628.png)
 
-![image-2.png](./pics/image10.png)
+![image](https://user-images.githubusercontent.com/112528710/204198819-24a05d3d-379d-410b-99a8-b8ef9650e253.png)
 
-![image.png](./pics/tu3.png)
 
 （2）The types of results returned by BraketSDK: Braket returns a result that supports multiple types. For different backends, the returned result types are also different, as shown in the following table:
 
-![image.png](./pics/types.png)
+![image](https://user-images.githubusercontent.com/112528710/204198864-9aad022c-6a45-405b-a905-55914fa9ea6f.png)
 
 （3）The Verbatim compilation compiler does not optimize. Every step of the algorithm is translated accurately to ensure that the implementation of the algorithm is consistent with its design. (In the compilation stage, that is, the gate operation in the circuit is translated into the QPU native gate stage, and the Branch compiler will optimize by default.) .Application scenarios of this function: such as benchmarking the performance of hardware. 
 
@@ -123,11 +122,11 @@ AWS can support local simulors, as well as efficient and more qubit capable simu
 
 （5）Amazon Braket supports access to quantum connectivity query interfaces for different quantum computer platforms
 
-![image.png](./pics/image13.png)
+![image](https://user-images.githubusercontent.com/112528710/204198885-7561956e-ddac-4c71-9fc4-58002fe21568.png)
 
 （6）Hybrid jobs. Braket support embedded simulators of PennyLane, which is embedded simulator GPU。
 
-![image.png](./pics/image14.png)
+![image](https://user-images.githubusercontent.com/112528710/204198897-c5183424-c450-43cb-8c98-a309f332887a.png)
 
 （7）Hybrid jobs and Braket provide Hybrid jobs for hybrid algorithms. When creating a job, you can upload the script of the quantum algorithm and other related parameters. The job results can be persisted in s3, or viewed in the console and cloud watch.
 
@@ -142,7 +141,7 @@ QuSprout now is the backend of QuTrunk. QuSprout is also a quantum computing sim
 ### 3.2 Structure Resolution
 The architecture of QuTrunk is shown in the figure below. Developers can use QuBranch to directly compile Python language. Modular design allows developers to adjust the compiler gate group according to the actual situation to better complete customized design. At present, QuTrunk  uses BackendLocal as the backend by default, and provides a Python version of the local backend.
 
-![image.png](./pics/image15.png)
+![image](https://user-images.githubusercontent.com/112528710/204198918-678953ae-6d90-4754-81b9-900448efbfc1.png)
 
 At the same time, QuTrunk also supports extending more backends.Theoretically, as long as the backend of the quantum computing access interface is developed externally, QuTrunk can be compatible,for example, IBM, lonq and so on. Developers can use QuTrunk to write quantum programs, then use QuSL to translate the quantum programs into instructions for the target platform, and then choose different backends for computation.
 
@@ -151,17 +150,15 @@ At the same time, QuTrunk also supports extending more backends.Theoretically, a
 ### 4.1  Start your first quantum program with Qutrunk
 After the deployment of QuTrunk, we can start to write and run our first quantum computing program.
 
-
-
 #### 4.1.1  Switch Python interpreter
 Execute` ctrl+shift+p `in Windows and Linux, and `command+shift+p` in MacOS to open the command line.And then enter quan search, and select quan: python interpreter switch. Switching the python interpreter can switch the whole workspace or a single project, that is, switch the python environment.
 
-![image.png](./pics/image16.png)
+![image](https://user-images.githubusercontent.com/112528710/204198930-8f66a4a0-5867-4315-8709-0f08d8d1dfbe.png)
 
 #### 4.1.2 Create a new project
 Create a new project under the directory to be saved,such as Qun-Demo. In the IDE start interface, select Open Folder, and then select the newly created folder , the display is as follows:
 
-![image.png](./pics/image17.png)
+![image](https://user-images.githubusercontent.com/112528710/204198940-3885119b-0779-4eeb-9caa-3aaf0c7e8a0f.png)
 
 #### 4.1.3 Compilation and operation of demo program for quantum computing
 From the start interface, select the new python file and save it as demo.py. The following code is an example of the bell_pair algorithm:
@@ -221,16 +218,15 @@ Measurement result: the measurement result is [{"00": 505}, {"11": 519}]. The re
 #### 4.2.1 Initialize quantum programming workspace
 Open QuBranch, first initialize the quantum programming workspace: through `ctrl+shift+p` on Windows, `command+shift+p` on macOS to open the command line, enter quan.And then select `quan:初始化量子编程`  and execute initialization. Start the function of initializing the visual programming workspace, which will create a virtual workspace for the developers to program visually.
 
-![image.png](./pics/image17.png)
+![image](https://user-images.githubusercontent.com/112528710/204198966-e0182f21-73a3-4d99-a134-b26a44f01940.png)
 
 #### 4.2.2 Start visual quantum programming
 Press `ctrl+shift+p/comand+shift+p` again and enter quan. You will see the workforce of   visual quantum programming.Select "quan:quan:量子可视化编程 " to start the visualization function of quantum programming. This function allows users to generate multiple qdoor files for visual programming, and if you switch different qdoor files, you can get different quantum circuit diagrams. It also allows you to edit circuit diagrams by coding or by dragging and dropping quantum gate symbols. Quantum circuit diagrams can be generated when a quantum gate is dragged into a circuit diagram, and removed by dragging a quantum gate from a circuit diagram.. Currently, H, NOT, Sdg, Toffoli, Tdg are supported , X, Y, Z, P, Rx, Ry, Rz, R, SqrtX, T, Measure, where X, Y, Z, P, Rx, Ry, Rz allow adding a control bit, Rx, Ry, Rz allow changing the rotation angle. QuBranch also provides keyword highlighting, code prompt and code auto-completion and other functions. With the help of Qutrunk, developers can check the quantum state statistics of the current quantum circuit diagram.
 
-![image-2.png](./pics/image18.png)
+![image](https://user-images.githubusercontent.com/112528710/204198985-56a6f89b-ee99-483b-821b-c446be085204.png)
+
 #### 4.2.3 Start visual programming example
 In the visual programming workforce, the developers can select each graphical programming element to add or delete to complete the programming by dragging and dropping them. If delete an element, just take the element out of the window and release it. The visual programming example is as follows:
 
-![image.png](./pics/QuBranch.png)
-
-
+![image](https://user-images.githubusercontent.com/112528710/204199005-568edf48-8be0-4567-b2bd-04dc3bb6c6aa.png)
 
