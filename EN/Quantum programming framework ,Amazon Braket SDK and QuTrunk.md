@@ -230,3 +230,16 @@ In the visual programming workforce, the developers can select each graphical pr
 
 ![image](https://user-images.githubusercontent.com/112528710/204199005-568edf48-8be0-4567-b2bd-04dc3bb6c6aa.png)
 
+
+**Writer**
+Keith Yan（丘秉宜）The First Community Hero of China
+![丘](https://user-images.githubusercontent.com/112528710/204707041-70198ae8-248c-4606-b973-031af5bdb5e9.jpg)
+
+
+Bertran Shao（邵伟），Quantum Developer Relations Leader, the initiator of the first open source quantum computing community in China
+![image](https://user-images.githubusercontent.com/112528710/204704277-97d14273-ef55-46d7-a0c7-626881cb8dec.png)
+
+Don Tang (唐松炎), a founder member of Qike Quantum Developer Relations, the first open source quantum computing community in China
+![image](https://user-images.githubusercontent.com/112528710/204704300-4c88a2ff-de40-401b-b6fb-fe2b2c6afaea.png)
+
+
