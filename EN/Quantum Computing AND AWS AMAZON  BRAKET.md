@@ -158,3 +158,25 @@ _Picture5:This picture shows the  the  function  of  time  series  prediction  i
 aQuantum has recently launched the QuantumPath on AWS, offering graphical tools to develop and test algorithms services to integrate solutions with classical software, providing access to quantum computers and third-party solutions and development life cycle management that helps apply software engineering best practices. And AWS is enabling the development and deployment of quantum solutions on AWS. Therefore, if  there is a corporation between the company and Amazon Web Services,the technical advantages of the company will enrich developer’s experience of programming on Amazon Braket.
 
 Github:https://github.com/qudoor
+
+Writer
+
+![丘](https://user-images.githubusercontent.com/112528710/205234564-6faffc77-c835-44bf-a15f-08a5d340ee7b.jpg)
+
+
+Keith Yan（丘秉宜）The First Community Hero of China
+
+
+![潘工照片](https://user-images.githubusercontent.com/112528710/205234582-f243daab-8fa8-4bf2-9729-943215c46b7d.jpg)
+
+潘彦宽 项目架构师，Software Architect of QuTrunk
+
+![image](https://user-images.githubusercontent.com/112528710/205234747-af8cf52f-1ad3-4dd4-8c15-304238e2ecd7.png)
+
+
+![image](https://user-images.githubusercontent.com/112528710/205234911-53c22078-8302-40fc-938b-dba500ab6e19.png)
+
+Bertran Shao（邵伟），Quantum Developer Relations Leader, the initiator of the first open source quantum computing community in China
+
+Zoey Deng(邓子宜)，Developer Relations of  QUDOOR
+
